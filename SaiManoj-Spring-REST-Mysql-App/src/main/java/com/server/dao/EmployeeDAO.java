@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.server.entity.Employee;
 
-public interface EmployeeDAO extends CrudRepository<Employee, Integer> {
+public interface EmployeeDAO extends JpaRepository<Employee, Integer> {
 
 }
