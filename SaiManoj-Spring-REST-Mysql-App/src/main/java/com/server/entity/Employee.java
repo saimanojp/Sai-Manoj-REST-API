@@ -19,7 +19,7 @@ public class Employee {
 	private String name;
 	
 	@Min(20000)
-	private float salary;
+	private double salary;
 	
 	public Employee() {
 		super();
